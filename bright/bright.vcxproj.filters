@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Test">
+      <UniqueIdentifier>{7e1fd83c-5be7-495b-ac3d-21a1c91d238b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\GeneralTest">
+      <UniqueIdentifier>{1d6ba270-3dee-4edc-92ce-00c93b433694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{1ec87025-a4a7-4eb5-ac30-0fcd6c42b1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene">
+      <UniqueIdentifier>{e9df5da3-0ea9-4933-9f9e-82dac9b7b59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject">
+      <UniqueIdentifier>{1d46fb62-315a-4bef-b62a-461dd5206e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component">
+      <UniqueIdentifier>{55512dfd-69e6-4ad2-8c3a-f998b8e85f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Camera">
+      <UniqueIdentifier>{73f9d45f-4bff-47f8-aad9-58aeac5a5ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Mesh">
+      <UniqueIdentifier>{66f9ca7d-d153-408a-9b3d-2e70ad4a905d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Renderer">
+      <UniqueIdentifier>{14afc032-648c-441a-948a-bde18e63e9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Transform">
+      <UniqueIdentifier>{fca02919-37f1-45f2-a9be-c2aa9c1c7e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Shader">
+      <UniqueIdentifier>{45d5bc3c-a5cf-4981-b04a-e819b616de21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation">
+      <UniqueIdentifier>{165d15fe-1f0a-40da-917b-68133e259470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Build">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test\GeneralTest\Scene">
+      <UniqueIdentifier>{7f1aba9e-7779-4d9d-8580-1ca10569769a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene">
+      <UniqueIdentifier>{6f9de0ff-3d67-40ec-b681-d98c41a71ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject">
+      <UniqueIdentifier>{cccc7c19-d67b-41ac-9201-5791562e1849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Implementation\D2D Manager">
+      <UniqueIdentifier>{16d332cd-e3e4-4f62-a3e3-37433b3c1c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\GeneralTest\Scene\GameObject">
+      <UniqueIdentifier>{bdf0ee63-2113-4042-8ccb-2ada052f1fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component">
+      <UniqueIdentifier>{d5602627-7027-4e37-9b9a-1e6aba73fb97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Renderer">
+      <UniqueIdentifier>{297e658c-28a1-47ff-994e-539ef7f1998f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefab">
+      <UniqueIdentifier>{e2aaf889-e0ab-4168-b62c-46937832db7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Mesh">
+      <UniqueIdentifier>{5230ada8-4c9c-477e-96d4-5395d558f22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Shader">
+      <UniqueIdentifier>{b4fbdb05-a388-46b7-a131-beac24424291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Camera">
+      <UniqueIdentifier>{3096f4d1-ffa5-4739-8685-e031f61f302d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Transform">
+      <UniqueIdentifier>{accc3713-9728-4752-8dbf-833704053e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Pipeline">
+      <UniqueIdentifier>{cdd21581-478e-4941-be96-a91d175ae0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Pipeline">
+      <UniqueIdentifier>{8d159104-2bd4-4a04-8861-58a6fd8539ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Pipeline\Rasterizer">
+      <UniqueIdentifier>{b133f4aa-d8be-48e2-9f66-7fb4aa27a862}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralTest.h">
+      <Filter>Test\GeneralTest</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralScene.h">
+      <Filter>Test\GeneralTest\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Implementation\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>Interface\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Interface\Scene\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Implementation\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Implementation\D2D Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DManager.h">
+      <Filter>Implementation\D2D Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Test\GeneralTest\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>Interface\Scene\GameObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Implementation\Scene\GameObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Implementation\Scene\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMesh.h">
+      <Filter>Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Implementation\Scene\GameObject\Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Implementation\Scene\GameObject\Component\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="IMesh.h">
+      <Filter>Interface\Scene\GameObject\Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="IVertexShader.h">
+      <Filter>Interface\Scene\GameObject\Component\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineManager.h">
+      <Filter>Implementation\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Interface\Scene\GameObject\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Implementation\Scene\GameObject\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Implementation\Scene\GameObject\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="ITransform.h">
+      <Filter>Interface\Scene\GameObject\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="IRasterizer.h">
+      <Filter>Interface\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Interface\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Rasterizer.h">
+      <Filter>Implementation\Pipeline\Rasterizer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Build</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralTest.cpp">
+      <Filter>Test\GeneralTest</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralScene.cpp">
+      <Filter>Test\GeneralTest\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Implementation\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Implementation\Scene\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Implementation\D2D Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DManager.cpp">
+      <Filter>Implementation\D2D Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Test\GeneralTest\Scene\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Implementation\Scene\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMesh.cpp">
+      <Filter>Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="PipelineManager.cpp">
+      <Filter>Implementation\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Rasterizer.cpp">
+      <Filter>Implementation\Pipeline\Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bright.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="bright.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
