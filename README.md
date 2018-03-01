@@ -1,5 +1,5 @@
 # Bright
-Simple software rendering:
+Simple software renderer:
 
 Input: model in fbx format
 
